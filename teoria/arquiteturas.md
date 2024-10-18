@@ -6,10 +6,10 @@
 
 ### 2. Redes Alimentadas Diretamente com Múltiplas Camadas:
 - também é alimentada adiante
-![][../imagens/arquiteturas-2.png]
+![](../imagens/arquiteturas-2.png)
 
 ### 3. Redes Recorrentes
 - possui laços de realimentação (diferindo de uma rede neural alimentada adiante);
-![][../imagens/arquiteturas-3.png]
-![][../imagens/arquiteturas-4.png]
+![](../imagens/arquiteturas-3.png)
+![](../imagens/arquiteturas-4.png)
 
