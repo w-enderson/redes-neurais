@@ -9,3 +9,6 @@
 
 
 obs: Learning rate: se for muito baixa demora muito para chegar ao mínimo da função de custo, mas se for muito alta, vai dar passos muito longos e talvez nao consiga chegar nesse mínimo;
+
+
+* Para problemas de regresssão linear, basta mudar a funcao de ativação de step para uma linear
