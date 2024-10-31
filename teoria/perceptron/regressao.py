@@ -1,10 +1,9 @@
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-from random import random
+
 from sklearn.linear_model import LinearRegression
 from sklearn.preprocessing import MinMaxScaler
-from sklearn.datasets import make_blobs
 
 df = pd.read_csv('./notas.csv')
 
@@ -28,7 +27,7 @@ plt.subplot(1, 3, 3)
 plt.scatter(df.prova3.values, df.final.values)
 plt.xlabel('Prova 3')
 plt.ylabel('Final')
-# plt.show()
+plt.show()
 
 x = df[['prova1', 'prova2', 'prova3']].values
 y = df['final'].values
