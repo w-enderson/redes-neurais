@@ -7,7 +7,7 @@ from sklearn.preprocessing import MinMaxScaler
 from sklearn.datasets import make_blobs
 
 
-df = pd.read_csv('./medidas.csv')
+df = pd.read_csv('../../assets/medidas.csv')
 print(df.shape)
 print(df.head(10))
 

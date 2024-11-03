@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 from sklearn.linear_model import LinearRegression
 from sklearn.preprocessing import MinMaxScaler
 
-df = pd.read_csv('./notas.csv')
+df = pd.read_csv('../../assets/notas.csv')
 
 print(df.shape)
 df.head(10)
