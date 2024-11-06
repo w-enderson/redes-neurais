@@ -34,7 +34,6 @@ b = 2*np.random.random()-1
 for step in range(10001):
     cost = 0
     for x_n, y_n in zip(x, y):
-        # qual linha devemos remover para transformar o Perceptron num regressor?
         y_pred = np.dot(x_n, w) + b 
         error = y_n - y_pred
         w = w + 1e-7*np.dot(error, x_n)
